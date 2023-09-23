@@ -1,6 +1,7 @@
 import Seo from "@/components/common/Seo";
+import Header from "@/components/header";
+import Hero from "@/components/hero";
 import dynamic from "next/dynamic";
-// import Seo from "../../components/common/Seo";
 
 const Home = () => {
   return (
@@ -8,10 +9,10 @@ const Home = () => {
       <Seo pageTitle="Home" />
       {/* End Page Title */}
 
-      {/* <Header3 /> */}
+      <Header />
       {/* End Header 3 */}
 
-      {/* <Hero3 /> */}
+      <Hero />
       {/* End Hero 3 */}
 
       <section className="layout-pt-md layout-pb-md">
