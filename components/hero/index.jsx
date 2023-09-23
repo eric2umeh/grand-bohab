@@ -10,10 +10,10 @@ const Index = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                Where do You Want To Fly
+                Choose Your Next Stay
               </h1>
               <p className="mt-5" data-aos="fade-up" data-aos-delay="200">
-                Discover amzaing places at exclusive deals
+                Explore unforgettable hospitality in Abuja
               </p>
             </div>
             {/* End .masthead__content */}
