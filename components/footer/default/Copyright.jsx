@@ -14,7 +14,7 @@ const Copyright = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ib-themes
+                Grand Bohabs
               </a>
               All rights reserved.
             </div>
