@@ -1,12 +1,11 @@
 import Wrapper from './layout/wrapper';
-// import Home3 from './home/home_3';
+import Home1 from './home/Home';
 
 export default function Home() {
   return (
     <>
       <Wrapper>
-        dddddd
-        {/* <Home3 /> */}
+        <Home1 />
       </Wrapper>
     </>
   );
