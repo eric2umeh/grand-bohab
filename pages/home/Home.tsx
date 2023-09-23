@@ -26,10 +26,10 @@ const Home = () => {
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">
-                  Explore various kinds of rooms
+                  Explore luxurious views
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  These are summary of our popular types of rooms
+                  Some of our popular types of rooms
                 </p>
               </div>
             </div>
