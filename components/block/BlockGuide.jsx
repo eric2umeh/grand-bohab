@@ -3,22 +3,22 @@ const BlockGuide = () => {
     {
       id: 1,
       icon: "/img/featureIcons/1/1.svg",
-      title: "Best Price Guarantee",
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      title: "Affordable Luxury",
+      text: `Discover the perfect blend of affordability and comfort when you choose our rooms.`,
       delayAnim: "100",
     },
     {
       id: 2,
       icon: "/img/featureIcons/1/2.svg",
-      title: "Great service and hospitality",
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      title: "Exceptional Service and Hospitality",
+      text: `Experience top-notch service and unmatched hospitality at our service apartments, where your comfort is our priority`,
       delayAnim: "200",
     },
     {
       id: 3,
       icon: "/img/featureIcons/1/3.svg",
-      title: "Comfort at it's peak",
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      title: "Luxury Redefined and Accessible",
+      text: `Elevate your stay to a new level of opulence with our service apartments, strategically located in the heart of the city for an unparalleled luxury experience.`,
       delayAnim: "300",
     },
   ];
