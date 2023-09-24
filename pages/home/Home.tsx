@@ -19,6 +19,45 @@ const Home = () => {
 
       <Hero />
       {/* End Hero 3 */}
+      <div className="d-none sm:d-flex">
+        <br/> <br/> <br/> <br/> <br/>
+      </div>
+
+      <section className="layout-pt-lg layout-pb-lg z-999">
+        <div className="container">
+          <div className="row justify-between items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md sm:mt-80">
+                <h2 className="sectionTitle__title container">Popular Rooms</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  These are various distinguished rooms
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+
+            <div className="col-auto">
+              <Link
+                href="/room/all"
+                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
+              >
+                Showcase <div className="icon-arrow-top-right ml-15" />
+              </Link>
+            </div>
+          </div>
+          {/* End .row */}
+
+          <div className="relative mt-40 sm:mt-20">
+            <PopularRoutes />
+          </div>
+          {/* End relative */}
+        </div>
+        {/* End .container */}
+      </section>
+      {/* End popular routes Section */}
+
+      <AboutIntro />
+      {/* About Intro Cruise  Sections */}
 
       <section className="layout-pt-md layout-pb-md">
         <div className="container">
@@ -26,7 +65,7 @@ const Home = () => {
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">
-                  Explore luxurious views
+                  Explore elegant views
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   Some of our popular types of rooms
@@ -67,42 +106,6 @@ const Home = () => {
         {/* End .container */}
       </section>
       {/* End Connect with Travellers Sections */}
-
-      <AboutIntro />
-      {/* About Intro Cruise  Sections */}
-
-      <section className="layout-pt-lg layout-pb-lg">
-        <div className="container">
-          <div className="row justify-between items-end">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Popular Rooms</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  These are various distinguished rooms
-                </p>
-              </div>
-            </div>
-            {/* End .col */}
-
-            <div className="col-auto">
-              <Link
-                href="/rooms/all"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-              >
-                Showcase <div className="icon-arrow-top-right ml-15" />
-              </Link>
-            </div>
-          </div>
-          {/* End .row */}
-
-          <div className="relative mt-40 sm:mt-20">
-            <PopularRoutes />
-          </div>
-          {/* End relative */}
-        </div>
-        {/* End .container */}
-      </section>
-      {/* End popular routes Section */}
 
       <div className="py-20 border-top-light">
         <Copyright />

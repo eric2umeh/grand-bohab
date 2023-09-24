@@ -47,7 +47,7 @@ const RentalProperties = () => {
           data-aos-delay={item.delayAnimation}
         >
           <Link
-            href={`/rental/rental-single/${item.id}`}
+            href={`/room/single/${item.id}`}
             className="rentalCard -type-1 rounded-4 hover-inside-slider"
           >
             <div className="rentalCard__image">
@@ -93,7 +93,7 @@ const RentalProperties = () => {
             {/* End image card */}
 
             <div className="rentalCard__content mt-10">
-            <div className="text-14 text-light-1 lh-14 mb-5">
+              <div className="text-14 text-light-1 lh-14 mb-5">
                 {item?.type}
               </div>
               <h4 className="rentalCard__title text-dark-1 text-18 lh-16 fw-500">
@@ -107,7 +107,7 @@ const RentalProperties = () => {
                   {item?.parlour} parlour
                 </div>
                 <div className="size-3 bg-light-1 rounded-full ml-10 mr-10" />
-                <div className="text-14 text-light-1">{item?.bed} bed</div>
+                <div className="text-14 text-light-1">{item?.bedroom} bedroom</div>
               </div>
               <div className="mt-5">
                 <div className="text-light-1">
