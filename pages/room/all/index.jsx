@@ -6,7 +6,7 @@ import RentalProperties from "../../../components/room-list/all/RentalProperties
 const index = () => {
   return (
     <>
-      <Seo pageTitle="Rental List v2" />
+      <Seo pageTitle="All Rooms" />
       {/* End Page Title */}
 
       <div className="header-margin"></div>

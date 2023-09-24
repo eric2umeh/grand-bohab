@@ -14,7 +14,7 @@ module.exports = [
     price: "100,000",
     guest: "4",
     parlour: "1",
-    bed: "1",
+    bedroom: "1",
     delayAnimation: "100",
   },
   {
@@ -32,7 +32,7 @@ module.exports = [
     price: "80,000",
     guest: "3",
     parlour: "1",
-    bed: "1",
+    bedroom: "1",
     delayAnimation: "200",
   },
 
@@ -51,7 +51,7 @@ module.exports = [
     price: "75,000",
     guest: "2",
     parlour: "0",
-    bed: "1",
+    bedroom: "1",
     delayAnimation: "300",
   },
   {
@@ -69,7 +69,7 @@ module.exports = [
     price: "60,000",
     guest: "2",
     parlour: "0",
-    bed: "1",
+    bedroom: "1",
     delayAnimation: "400",
   },
   {
@@ -87,7 +87,7 @@ module.exports = [
     price: "55,000",
     guest: "2",
     parlour: "0",
-    bed: "1",
+    bedroom: "1",
     delayAnimation: "100",
   },
   {
@@ -105,7 +105,7 @@ module.exports = [
     price: "72",
     guest: "4",
     parlour: "2",
-    bed: "1",
+    bedroom: "1",
     delayAnimation: "200",
   },
 
@@ -124,21 +124,21 @@ module.exports = [
     price: "72",
     guest: "2",
     parlour: "1",
-    bed: "1",
+    bedroom: "1",
     delayAnimation: "300",
   },
   {
     id: 8,
     tag: "top rated",
     slideImg: ["/img/rentals/8.png"],
-    title: "Marylebone - Oxford Street 1 bed apt with WiFi",
+    title: "Marylebone - Oxford Street 1 bedroom apt with WiFi",
     type: "Vaticano Prati, Rome",
     ratings: "4.8",
     numberOfReviews: "3014",
     price: "72",
     guest: "3",
     parlour: "2",
-    bed: "1",
+    bedroom: "1",
     delayAnimation: "400",
   },
   {
@@ -152,7 +152,7 @@ module.exports = [
     price: "72",
     guest: "2",
     parlour: "1",
-    bed: "1",
+    bedroom: "1",
     delayAnimation: "100",
   },
 ];
