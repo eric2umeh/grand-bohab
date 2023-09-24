@@ -48,7 +48,7 @@ const TourSingleV1Dynamic = () => {
                           <div className="d-flex x-gap-5 items-center">
                             <i className="icon-bed text-16 text-light-1" />
                             <div className="text-15 text-light-1">
-                              {rental?.location}
+                              {rental?.type}
                             </div>
                           </div>
                         </div>
@@ -67,7 +67,7 @@ const TourSingleV1Dynamic = () => {
                     <div className="col-auto">
                       <button className="button px-15 py-10 -blue-1 bg-light-2 mt-10">
                         ₦
-                        {rental?.price} night
+                        {rental?.price} / night
                       </button>
                     </div>
                     {/* End .col-auto */}
