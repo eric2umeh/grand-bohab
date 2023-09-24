@@ -64,7 +64,9 @@ const Contact = () => {
       </section>
       {/* End Why Choose Us section */}
 
-      <Copyright />
+      <div className="py-20 border-top-light">
+        <Copyright />
+      </div>
       {/* End Call To Actions Section */}
     </>
   );
