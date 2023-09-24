@@ -67,10 +67,10 @@ const Home = () => {
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">
-                  Explore elegant views
+                  Explore more views
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Some of our popular types of rooms
+                  Other activities to visit
                 </p>
               </div>
             </div>
@@ -109,7 +109,7 @@ const Home = () => {
       </section>
       {/* End Connect with Travellers Sections */}
 
-      <section className="layout-pt-sm layout-pb-sm bg-dark-3">
+      <section className="layout-pt-sm layout-pb-sm bg-yellow-5">
         <div className="container">
           <div className="row y-gap-60">
             <div className="col-xl-5 col-lg-6">

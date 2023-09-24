@@ -43,7 +43,7 @@ const Header1 = () => {
                 <div className="d-flex items-center is-menu-opened-hide">
                   <Link
                     href="/contact"
-                    className="button px-30 fw-400 text-14 -blue-1 bg-dark-4 h-50 text-white"
+                    className="button px-30 fw-400 text-14 -blue-1 bg-yellow-5 h-50 text-white"
                   >
                     Book Now
                   </Link>
