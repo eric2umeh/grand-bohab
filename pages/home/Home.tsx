@@ -86,10 +86,10 @@ const Home = () => {
 
             <div className="col-auto">
               <Link
-                href="#"
+                href="/rooms/all"
                 className="button -md -blue-1 bg-blue-1-05 text-blue-1"
               >
-                More <div className="icon-arrow-top-right ml-15" />
+                Showcase <div className="icon-arrow-top-right ml-15" />
               </Link>
             </div>
           </div>
@@ -104,7 +104,9 @@ const Home = () => {
       </section>
       {/* End popular routes Section */}
 
-      <Copyright />
+      <div className="py-20 border-top-light">
+        <Copyright />
+      </div>
       {/* End Footer Section */}
     </>
   );

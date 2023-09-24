@@ -1,5 +1,4 @@
 import Image from "next/image";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import Link from "next/link";
@@ -97,7 +96,7 @@ const PopularRoutes = () => {
         {rentalRoutes.map((item) => (
           <SwiperSlide key={item.id}>
             <Link
-              href="/rental/rental-list-v2"
+              href="/rooms/all"
               className="rentalCard -type-2"
               data-aos="fade"
               data-aos-delay={item.delayAnimation}
@@ -121,7 +120,6 @@ const PopularRoutes = () => {
                 </h4>
                 <div className="d-flex items-center text-light-1">
                   <div className="text-14">{item.tripType}</div>
-                  <div className="size-3 bg-light-1 rounded-full ml-10 mr-10" />
                   <div className="text-14">{item.date}</div>
                 </div>
                 <div className="text-light-1  mt-5">
