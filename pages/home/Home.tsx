@@ -7,6 +7,8 @@ import Link from "next/link";
 import AboutIntro from "@/components/home/AboutIntro";
 import Travellers from "@/components/home/Travellers";
 import PopularRoutes from "@/components/home/PopularRoutes";
+import Testimonial from "../../components/home/Testimonial";
+import TestimonialRating from "../../components/home/TestimonialRating";
 
 const Home = () => {
   return (
@@ -106,6 +108,25 @@ const Home = () => {
         {/* End .container */}
       </section>
       {/* End Connect with Travellers Sections */}
+
+      <section className="layout-pt-sm layout-pb-sm bg-dark-3">
+        <div className="container">
+          <div className="row y-gap-60">
+            <div className="col-xl-5 col-lg-6">
+              <TestimonialRating />
+            </div>
+            {/* End .col */}
+
+            <div className="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-10">
+              <Testimonial />
+            </div>
+            {/* End .col */}
+          </div>
+          {/* End .row */}
+
+        </div>
+      </section>
+      {/* End testimonial and brand sections Section */}
 
       <div className="py-20 border-top-light">
         <Copyright />
