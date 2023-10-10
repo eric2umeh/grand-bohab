@@ -112,7 +112,7 @@ export const destinations3 = [
   {
     id: 7,
     img: "/img/destinations/1/2.png",
-    title: "Alcove",
+    title: "Alcoves",
     travellers: "4",
     delayAnimation: "600",
   },
