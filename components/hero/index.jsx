@@ -30,7 +30,7 @@ const Index = () => {
           <div className="row y-gap-30 flex-nowrap">
             <div className="col-auto">
               <img
-                src="/img/hotels/2.png"
+                src="/img/hotels/34.jpg"
                 alt="image"
                 className="rounded-16"
               />

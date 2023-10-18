@@ -8,7 +8,7 @@ const PopularRoutes = () => {
     {
       id: 1,
       tag: "",
-      img: "/img/rentals/1.png",
+      img: "/img/hotels/18.jpg",
       destination: "VIP",
       tripType: "3 available rooms",
       data: "Wed, Jun 1 - Sun, Jun 5",
@@ -18,7 +18,7 @@ const PopularRoutes = () => {
     {
       id: 2,
       tag: "",
-      img: "/img/rentals/2.png",
+      img: "/img/hotels/20.jpg",
       destination: "Executive",
       tripType: "4 available rooms",
       data: "Wed, Jun 1 - Sun, Jun 5",
@@ -28,7 +28,7 @@ const PopularRoutes = () => {
     {
       id: 3,
       tag: "",
-      img: "/img/rentals/3.png",
+      img: "/img/hotels/34.jpg",
       destination: "Alcove",
       tripType: "6 available rooms",
       data: "Wed, Jun 1 - Sun, Jun 5",
@@ -38,7 +38,7 @@ const PopularRoutes = () => {
     {
       id: 4,
       tag: "",
-      img: "/img/rentals/4.png",
+      img: "/img/hotels/44.jpg",
       destination: "Classic",
       tripType: "5 available rooms",
       data: "Wed, Jun 1 - Sun, Jun 5",
@@ -48,7 +48,7 @@ const PopularRoutes = () => {
     {
       id: 5,
       tag: "",
-      img: "/img/rentals/1.png",
+      img: "/img/hotels/36.jpg",
       destination: "Standard",
       tripType: "13 available rooms",
       data: "Wed, Jun 1 - Sun, Jun 5",
@@ -58,7 +58,7 @@ const PopularRoutes = () => {
     {
       id: 6,
       tag: "",
-      img: "/img/rentals/2.png",
+      img: "/img/hotels/19.jpg",
       destination: "Mini-Standard",
       tripType: "7 available rooms",
       data: "Wed, Jun 1 - Sun, Jun 5",
