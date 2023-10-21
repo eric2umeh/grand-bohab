@@ -4,13 +4,13 @@ const AboutIntro = () => {
       <div className="section-bg__item -right -w-1165 bg-light-2" />
       <div className="section-bg__item -video-left">
         <div className="row y-gap-30">
-          <div className="col-sm-6">
-            <img src="/img/video/1.png" alt="image" />
-          </div>
+          {/* <div className="col-sm-6">
+            <img src="/img/hotels/66.jpg" alt="image" />
+          </div> */}
           {/* End .col */}
 
-          <div className="col-sm-6">
-            <img src="/img/video/2.png" alt="image" />
+          <div className="col-auto">
+            <img src="/img/hotels/66.jpg" alt="image" />
           </div>
         </div>
         {/* End .row */}
@@ -24,8 +24,8 @@ const AboutIntro = () => {
               Simply Grande
             </h2>
             <p className="text-dark-1 mt-40 lg:mt-20 sm:mt-15">
-              Experience unparalleled luxury and sophistication at our new apartment in the heart of the city's most sought-after neighborhood. 
-              Nestled in a prime location, our meticulously designed apartments offer a harmonious blend of modern amenities and timeless elegance, ensuring an unforgettable stay for discerning travelers seeking the epitome of comfort and convenience.
+              Experience unparalleled luxury and sophistication at our new rooms in the heart of the city's most sought-after neighborhood. 
+              Nestled in a prime location, our meticulously designed rooms offer a harmonious blend of modern amenities and timeless elegance, ensuring an unforgettable stay for discerning travelers seeking the epitome of comfort and convenience.
             </p>
             <div className="d-inline-block mt-40 lg:mt-30 sm:mt-20">
               <a

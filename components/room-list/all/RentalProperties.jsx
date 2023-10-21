@@ -80,7 +80,7 @@ const RentalProperties = () => {
                         ? "bg-blue-1 text-white"
                         : ""
                     }  ${
-                      isTextMatched(item?.tag, "top rated")
+                      isTextMatched(item?.tag, "popular")
                         ? "bg-yellow-1 text-dark-1"
                         : ""
                     }`}
@@ -93,9 +93,9 @@ const RentalProperties = () => {
             {/* End image card */}
 
             <div className="rentalCard__content mt-10">
-              <div className="text-14 text-light-1 lh-14 mb-5">
+              {/* <div className="text-14 text-light-1 lh-14 mb-5">
                 {item?.type}
-              </div>
+              </div> */}
               <h4 className="rentalCard__title text-dark-1 text-18 lh-16 fw-500">
                 <span>{item?.title}</span>
               </h4>

@@ -33,9 +33,9 @@ const Testimonial = () => {
                   </p>
                   <div className="pt-20 mt-28 border-top-light">
                     <div className="row x-gap-20 y-gap-20 items-center">
-                      <div className="col-auto">
+                      {/* <div className="col-auto">
                         <img src={item.avatar} alt="image" />
-                      </div>
+                      </div> */}
                       <div className="col-auto">
                         <div className="text-15 fw-500 lh-14">{item.name}</div>
                         <div className="text-14 lh-14 text-light-1 mt-5">
