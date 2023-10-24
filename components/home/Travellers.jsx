@@ -54,7 +54,7 @@ const Travellers = () => {
                   {item.title}
                 </h4>
                 <div className="text-14 text-light-1">
-                  {item.travellers} rooms
+                  {item.travellers}
                 </div>
               </div>
             </Link>

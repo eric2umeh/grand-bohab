@@ -43,7 +43,7 @@ const Index = () => {
 
             <div className="col-auto">
               <Image
-                src="/img/hotels/54.jpg"
+                src="/img/hotels/105.jpg"
                 alt="image"
                 width="800"
                 height="0"

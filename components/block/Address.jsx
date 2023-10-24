@@ -5,7 +5,7 @@ const Address = () => {
       colClass: "col-lg-3",
       title: "Address",
       content: (
-        <>Plot 1169 Opposite Capital Hub Mabushi, Abuja, Nigeria</>
+        <>Plot 1169 Opposite The Capital Hub Mabushi, Abuja, Nigeria</>
       ),
     },
     {
