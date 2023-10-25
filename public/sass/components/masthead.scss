@@ -792,13 +792,14 @@
       position: absolute;
       z-index: 0;
       display: flex;
-      top: 160px;
+      top: 90px;
       right: 0;
+      opacity: 0.6;
 
       @include media-below(lg) {
-        top: 0;
+        top: 80px;
         margin-top: 0;
-        opacity: 0.2;
+        opacity: 0.6;
       }
     }
   }

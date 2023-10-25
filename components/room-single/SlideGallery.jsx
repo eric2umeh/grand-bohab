@@ -2,14 +2,15 @@ import Image from "next/image";
 import { Gallery, Item } from "react-photoswipe-gallery";
 
 const SlideGallery = ({ rental }) => {
+  console.log(rental, "rental")
   return (
     <>
       <Gallery>
         <div className="galleryGrid -type-1 relative">
           <div className="galleryGrid__item">
             <Item
-              original="/img/rentals/single/1.png"
-              thumbnail="/img/rentals/single/1.png"
+              original={rental.slideImg && rental.slideImg[0]}
+              thumbnail={rental.slideImg && rental.slideImg[0]}
               width={1006}
               height={765}
             >
@@ -17,7 +18,7 @@ const SlideGallery = ({ rental }) => {
                 <Image
                   width={600}
                   height={500}
-                  src="/img/rentals/single/1.png"
+                  src={rental.slideImg && rental.slideImg[0]}
                   ref={ref}
                   onClick={open}
                   alt="image"
@@ -31,8 +32,8 @@ const SlideGallery = ({ rental }) => {
 
           <div className="galleryGrid__item">
             <Item
-              original="/img/rentals/single/2.png"
-              thumbnail="/img/rentals/single/2.png"
+              original={rental.slideImg && rental.slideImg[1]}
+              thumbnail={rental.slideImg && rental.slideImg[1]}
               width={450}
               height={375}
             >
@@ -42,7 +43,7 @@ const SlideGallery = ({ rental }) => {
                   height={375}
                   ref={ref}
                   onClick={open}
-                  src="/img/rentals/single/2.png"
+                  src={rental.slideImg && rental.slideImg[1]}
                   alt="image"
                   className="rounded-4"
                   role="button"
@@ -54,8 +55,8 @@ const SlideGallery = ({ rental }) => {
 
           <div className="galleryGrid__item">
             <Item
-              original="/img/rentals/single/3.png"
-              thumbnail="/img/rentals/single/3.png"
+              original={rental.slideImg && rental.slideImg[2]}
+              thumbnail={rental.slideImg && rental.slideImg[2]}
               width={450}
               height={375}
             >
@@ -65,7 +66,7 @@ const SlideGallery = ({ rental }) => {
                   height={375}
                   ref={ref}
                   onClick={open}
-                  src="/img/rentals/single/3.png"
+                  src={rental.slideImg && rental.slideImg[2]}
                   alt="image"
                   className="rounded-4"
                   role="button"
@@ -77,8 +78,8 @@ const SlideGallery = ({ rental }) => {
 
           <div className="galleryGrid__item">
             <Item
-              original="/img/rentals/single/4.png"
-              thumbnail="/img/rentals/single/4.png"
+              original={rental.slideImg && rental.slideImg[3]}
+              thumbnail={rental.slideImg && rental.slideImg[3]}
               width={450}
               height={375}
             >
@@ -88,7 +89,7 @@ const SlideGallery = ({ rental }) => {
                   height={375}
                   ref={ref}
                   onClick={open}
-                  src="/img/rentals/single/4.png"
+                  src={rental.slideImg && rental.slideImg[3]}
                   alt="image"
                   className="rounded-4"
                   role="button"
@@ -102,14 +103,14 @@ const SlideGallery = ({ rental }) => {
             <Image
               width={450}
               height={375}
-              src="/img/rentals/single/5.png"
+              src="/img/general/logo-bh.jpeg"
               alt="image"
               className="rounded-4"
             />
             <div className="absolute h-full col-12 z-2 px-20 py-20 d-flex justify-end items-end bottom-0 end-0">
               <Item
-                original="/img/rentals/single/5.png"
-                thumbnail="/img/rentals/single/5.png"
+                original="/img/general/logo-bh.jpeg"
+                thumbnail="/img/general/logo-bh.jpeg"
                 width={450}
                 height={375}
               >

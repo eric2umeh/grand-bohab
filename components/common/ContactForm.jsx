@@ -10,16 +10,16 @@ const ContactForm = () => {
   return (
     <div className="row y-gap-20 pt-20 text-light-1">
       <div className="col-12 border-bottom">
-        +234 8033 444 6666
+        Call: +234 915 126 3593
       </div>
       <div className="col-12 border-bottom">
-        Plot 1169 Opposite Capital Hub Mabushi, Abuja, Nigeria
+        Plot 1169 Opposite The Capital Hub Mabushi, Abuja, Nigeria
       </div>
       <div className="col-12 border-bottom">
-        grandbohabs@gmail.com
+        Email: Grandbohabs@gmail.com
       </div>
       <div className="col-12 border-bottom d-flex x-gap-20 items-center mt-10">
-        <Social />
+        <Social /> grandbohabs
       </div>
     </div>
   );
