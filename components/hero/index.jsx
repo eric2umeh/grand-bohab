@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Index = () => {
   return (
     <section className="masthead -type-10">
@@ -29,18 +31,22 @@ const Index = () => {
         >
           <div className="row y-gap-30 flex-nowrap">
             <div className="col-auto">
-              <img
-                src="/img/hotels/2.png"
+              <Image
+                src="/img/hotels/34.jpg"
                 alt="image"
+                width="800"
+                height="800"
                 className="rounded-16"
               />
             </div>
             {/* End col-auto */}
 
             <div className="col-auto">
-              <img
-                src="/img/masthead/10/2.png"
+              <Image
+                src="/img/hotels/105.jpg"
                 alt="image"
+                width="800"
+                height="0"
                 className="rounded-16"
               />
             </div>

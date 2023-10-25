@@ -11,14 +11,14 @@ const BlockGuide = () => {
       id: 2,
       icon: "/img/featureIcons/1/2.svg",
       title: "Exceptional Service and Hospitality",
-      text: `Experience top-notch service and unmatched hospitality at our service apartments, where your comfort is our priority`,
+      text: `Experience top-notch service and unmatched hospitality at our rooms, where your comfort is our priority`,
       delayAnim: "200",
     },
     {
       id: 3,
       icon: "/img/featureIcons/1/3.svg",
       title: "Luxury Redefined and Accessible",
-      text: `Elevate your stay to a new level of opulence with our service apartments, strategically located in the heart of the city for an unparalleled luxury experience.`,
+      text: `Elevate your stay to a new level of opulence with our rooms, strategically located in the heart of the city for an unparalleled luxury experience.`,
       delayAnim: "300",
     },
   ];

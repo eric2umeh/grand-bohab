@@ -54,7 +54,7 @@ const HelpfulFacts = () => {
           <div className="row x-gap-50 y-gap-5 pt-10">
             <div className="col-12">
               <div className="text-15">
-                Breakfast charge (if more than one guest): ₦3,500
+                Breakfast charge (if more than one guest): ₦6,500
               </div>
             </div>
           </div>

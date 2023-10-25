@@ -8,62 +8,62 @@ const PopularRoutes = () => {
     {
       id: 1,
       tag: "",
-      img: "/img/rentals/1.png",
-      destination: "VIP",
-      tripType: "3 available rooms",
+      img: "/img/hotels/44.jpg",
+      destination: "Delux",
+      tripType: "7 available rooms",
       data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "100,000",
-      delayAnimation: "100",
+      price: "65,000",
+      delayAnimation: "600",
     },
     {
       id: 2,
       tag: "",
-      img: "/img/rentals/2.png",
-      destination: "Executive",
-      tripType: "4 available rooms",
+      img: "/img/hotels/28.jpg",
+      destination: "Royal",
+      tripType: "13 available rooms",
       data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "80,000",
-      delayAnimation: "200",
+      price: "75,000",
+      delayAnimation: "500",
     },
     {
       id: 3,
       tag: "",
-      img: "/img/rentals/3.png",
-      destination: "Alcove",
-      tripType: "6 available rooms",
+      img: "/img/hotels/34.jpg",
+      destination: "Kings Size",
+      tripType: "4 available room",
       data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "65,000",
-      delayAnimation: "300",
+      price: "80,000",
+      delayAnimation: "400",
     },
     {
       id: 4,
       tag: "",
-      img: "/img/rentals/4.png",
-      destination: "Classic",
-      tripType: "5 available rooms",
+      img: "/img/hotels/67.jpg",
+      destination: "Mini Suite",
+      tripType: "4 available rooms",
       data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "60,000",
-      delayAnimation: "400",
+      price: "110,000",
+      delayAnimation: "300",
     },
     {
       id: 5,
       tag: "",
-      img: "/img/rentals/1.png",
-      destination: "Standard",
-      tripType: "13 available rooms",
+      img: "/img/hotels/65.jpg",
+      destination: "Executive Suite",
+      tripType: "4 available rooms",
       data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "50,000",
-      delayAnimation: "500",
+      price: "130,000",
+      delayAnimation: "200",
     },
     {
       id: 6,
       tag: "",
-      img: "/img/rentals/2.png",
-      destination: "Mini-Standard",
-      tripType: "7 available rooms",
+      img: "/img/hotels/72.jpg",
+      destination: "Diplomatic Suite",
+      tripType: "1 available rooms",
       data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "45,000",
-      delayAnimation: "600",
+      price: "180,000",
+      delayAnimation: "100",
     },
   ];
   return (
@@ -134,10 +134,10 @@ const PopularRoutes = () => {
 
       {/* start navigation pagination */}
 
-      <button className="section-slider-nav -prev flex-center button -blue-1 bg-white text-dark-1 size-40 rounded-full shadow-1 sm:d-none js-routes-routes_prev">
+      <button className="section-slider-nav -prev flex-center button -blue-1 bg-white text-dark-1 size-40 rounded-full shadow-1 js-routes-routes_prev">
         <i className="icon icon-chevron-left text-12" />
       </button>
-      <button className="section-slider-nav -next flex-center button -blue-1 bg-white text-dark-1 size-40 rounded-full shadow-1 sm:d-none js-routes-routes_next">
+      <button className="section-slider-nav -next flex-center button -blue-1 bg-white text-dark-1 size-40 rounded-full shadow-1 js-routes-routes_next">
         <i className="icon icon-chevron-right text-12" />
       </button>
 

@@ -97,12 +97,12 @@ const TourSingleV1Dynamic = () => {
         <div className="container">
           <div className="row y-gap-30">
             <div className="col-xl-8">
-              <h3 className="text-22 fw-500">Property highlights</h3>
-              <StandardHighlights />
+              {/* <h3 className="text-22 fw-500">Property highlights</h3> */}
+              {/* <StandardHighlights /> */}
               {/* End toursnapshot */}
               <div className="border-top-light mt-40 mb-40"></div>
 
-              <Overview />
+              {/* <Overview /> */}
               {/* End  Overview */}
             </div>
             {/* End .col-xl-8 */}
