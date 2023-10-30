@@ -10,7 +10,7 @@ const HelpfulFacts = () => {
 
           <div className="row x-gap-50 y-gap-5 pt-10">
             <div className="col-12">
-              <div className="text-15">Check-in from: 6:00 PM</div>
+              <div className="text-15">Check-in from: 2 PM</div>
             </div>
 
             <div className="col-12">
