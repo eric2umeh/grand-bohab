@@ -1,69 +1,69 @@
-import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
-import Link from "next/link";
+import Image from 'next/image';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper';
+import Link from 'next/link';
 
 const PopularRoutes = () => {
   const rentalRoutes = [
     {
       id: 1,
-      tag: "",
-      img: "/img/hotels/44.jpg",
-      destination: "Delux",
-      tripType: "7 available rooms",
-      data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "65,000",
-      delayAnimation: "600",
+      tag: '',
+      img: '/img/hotels/44.jpg',
+      destination: 'Delux',
+      tripType: '8 available rooms',
+      data: 'Wed, Jun 1 - Sun, Jun 5',
+      price: '65,000',
+      delayAnimation: '600',
     },
     {
       id: 2,
-      tag: "",
-      img: "/img/hotels/28.jpg",
-      destination: "Royal",
-      tripType: "13 available rooms",
-      data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "75,000",
-      delayAnimation: "500",
+      tag: '',
+      img: '/img/hotels/28.jpg',
+      destination: 'Royal',
+      tripType: '8 available rooms',
+      data: 'Wed, Jun 1 - Sun, Jun 5',
+      price: '75,000',
+      delayAnimation: '500',
     },
     {
       id: 3,
-      tag: "",
-      img: "/img/hotels/34.jpg",
-      destination: "Kings Size",
-      tripType: "4 available room",
-      data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "80,000",
-      delayAnimation: "400",
+      tag: '',
+      img: '/img/hotels/34.jpg',
+      destination: 'Kings Size',
+      tripType: '5 available room',
+      data: 'Wed, Jun 1 - Sun, Jun 5',
+      price: '80,000',
+      delayAnimation: '400',
     },
     {
       id: 4,
-      tag: "",
-      img: "/img/hotels/67.jpg",
-      destination: "Mini Suite",
-      tripType: "4 available rooms",
-      data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "110,000",
-      delayAnimation: "300",
+      tag: '',
+      img: '/img/hotels/67.jpg',
+      destination: 'Mini Suite',
+      tripType: '1 available rooms',
+      data: 'Wed, Jun 1 - Sun, Jun 5',
+      price: '110,000',
+      delayAnimation: '300',
     },
     {
       id: 5,
-      tag: "",
-      img: "/img/hotels/65.jpg",
-      destination: "Executive Suite",
-      tripType: "4 available rooms",
-      data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "130,000",
-      delayAnimation: "200",
+      tag: '',
+      img: '/img/hotels/65.jpg',
+      destination: 'Executive Suite',
+      tripType: '2 available rooms',
+      data: 'Wed, Jun 1 - Sun, Jun 5',
+      price: '130,000',
+      delayAnimation: '200',
     },
     {
       id: 6,
-      tag: "",
-      img: "/img/hotels/72.jpg",
-      destination: "Diplomatic Suite",
-      tripType: "1 available rooms",
-      data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "180,000",
-      delayAnimation: "100",
+      tag: '',
+      img: '/img/hotels/72.jpg',
+      destination: 'Diplomatic Suite',
+      tripType: '1 available rooms',
+      data: 'Wed, Jun 1 - Sun, Jun 5',
+      price: '180,000',
+      delayAnimation: '100',
     },
   ];
   return (
@@ -73,8 +73,8 @@ const PopularRoutes = () => {
         spaceBetween={30}
         loop={true}
         navigation={{
-          nextEl: ".js-routes-routes_next",
-          prevEl: ".js-routes-routes_prev",
+          nextEl: '.js-routes-routes_next',
+          prevEl: '.js-routes-routes_prev',
         }}
         breakpoints={{
           500: {
@@ -123,8 +123,8 @@ const PopularRoutes = () => {
                   <div className="text-14">{item.date}</div>
                 </div>
                 <div className="text-light-1  mt-5">
-                  <span className="fw-500 text-dark-1">₦{item.price}</span>/
-                  per night
+                  <span className="fw-500 text-dark-1">₦{item.price}</span>/ per
+                  night
                 </div>
               </div>
             </Link>
