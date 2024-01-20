@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="Grand Bohabs - Travel Web App"
+          content="A 4-star luxurious and cozy in West Africa, situated at the heart of Abuja, the capital of Nigeris "
         />
         {/* <!-- Google fonts --> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
