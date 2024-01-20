@@ -11,6 +11,7 @@ import 'aos/dist/aos.css';
 import '../styles/index.scss';
 import { Provider } from 'react-redux';
 import { store } from '../app/store';
+import Head from 'next/head';
 
 if (typeof window !== 'undefined') {
   require('bootstrap/dist/js/bootstrap');
@@ -25,6 +26,9 @@ export default function App({ Component, pageProps }: AppProps) {
   }, []);
   return (
     <main>
+      <Head>
+        <title>Grand Bohabs</title>
+      </Head>
       <Provider store={store}>
         <Component {...pageProps} />
         <SrollTop />

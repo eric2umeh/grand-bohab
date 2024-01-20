@@ -5,7 +5,7 @@ const Address = () => {
       colClass: "col-lg-3",
       title: "Address",
       content: (
-        <>Plot 1169 Opposite The Capital Hub Mabushi, Abuja, Nigeria</>
+        <>No 1 Ben Amichi Umeoha close, opposite The Capital Hub along Ahmadu Bello way Mabushi district, Abuja, Nigeria</>
       ),
     },
     {
@@ -14,7 +14,7 @@ const Address = () => {
       title: "Toll Free Customer Care",
       content: (
         <>
-          <a href="tel:+4733378901">+234 810 0003 222</a>
+          <a href="tel:+234 915 126 3593">+234 915 126 3593</a>
         </>
       ),
     },
