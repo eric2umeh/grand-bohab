@@ -10,16 +10,19 @@ const ContactForm = () => {
   return (
     <div className="row y-gap-20 pt-20 text-light-1">
       <div className="col-12 border-bottom">
-        Call: +234 915 126 3593
+        Call: +234 905 7252 594
       </div>
       <div className="col-12 border-bottom">
-        Plot 1169 Opposite The Capital Hub Mabushi, Abuja, Nigeria
+        Whatsapp: +234 813 3405 6026
+      </div>
+      <div className="col-12 border-bottom">
+        Grand Bohabs Hotel Abuja Opposite The Capital Hub, Abuja, Nigeria
       </div>
       <div className="col-12 border-bottom">
         Email: Grandbohabs@gmail.com
       </div>
       <div className="col-12 border-bottom d-flex x-gap-20 items-center mt-10">
-        <Social /> grandbohabs
+        <Social /> Instagram: grandbohabshotel
       </div>
     </div>
   );
