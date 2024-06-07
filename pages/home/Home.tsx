@@ -19,10 +19,9 @@ const Home = () => {
       <Header />
       {/* End Header 3 */}
 
-      <Hero />
       {/* End Hero 3 */}
       <div className="d-none sm:d-flex">
-        <br/> <br/> <br/> <br/> <br/>
+        <br /> <br /> <br /> <br /> <br />
       </div>
 
       <section className="layout-pt-lg layout-pb-lg z-999">
@@ -66,9 +65,7 @@ const Home = () => {
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">
-                  Explore more views
-                </h2>
+                <h2 className="sectionTitle__title">Explore more views</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   Other activities to visit
                 </p>
@@ -123,7 +120,6 @@ const Home = () => {
             {/* End .col */}
           </div>
           {/* End .row */}
-
         </div>
       </section>
       {/* End testimonial and brand sections Section */}
