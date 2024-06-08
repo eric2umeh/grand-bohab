@@ -38,21 +38,21 @@ const Header1 = () => {
             </div>
             {/* End col */}
 
-            <div className="col-auto">
+            {/* <div className="col-auto">
               <div className="d-flex items-center">
                 <div className="d-flex items-center is-menu-opened-hide">
                   <Link
-                    href="/contact"
+                    href="https://www.grandbohabs.shop/"
                     className="button px-30 fw-400 text-14 -blue-1 bg-yellow-5 h-50 text-white"
                   >
                     Book Now
                   </Link>
-                </div>
+                </div> */}
                 {/* End d-flex */}
 
-              </div>
+              {/* </div> */}
               {/* End d-flex */}
-            </div>
+            {/* </div> */}
             {/* End col-auto */}
           </div>
           {/* End .row */}

@@ -29,7 +29,7 @@ const AboutIntro = () => {
             </p>
             <div className="d-inline-block mt-40 lg:mt-30 sm:mt-20">
               <a
-                href="/contact"
+                href="https://www.grandbohabs.shop"
                 className="button -md -blue-1 bg-yellow-5 text-dark-1"
               >
                 Book Now <div className="icon-arrow-top-right ml-15" />
