@@ -47,8 +47,8 @@ const RentalProperties = () => {
           data-aos-delay={item.delayAnimation}
         >
           <Link
-            // href={`/room/single/${item.id}`}
-            href={`https://www.grandbohabs.shop/room/${item.id}`}
+            href={`/room/single/${item.id}`}
+            // href={`https://www.grandbohabs.shop/room/${item.id}`}
             className="rentalCard -type-1 rounded-4 hover-inside-slider"
           >
             <div className="rentalCard__image">

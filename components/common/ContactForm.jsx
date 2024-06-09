@@ -16,6 +16,9 @@ const ContactForm = () => {
         Whatsapp: +234 813 3405 6026
       </div>
       <div className="col-12 border-bottom">
+        Reservations: www.grandbohabs.shop
+      </div>
+      <div className="col-12 border-bottom">
         Grand Bohabs Hotel Abuja Opposite The Capital Hub, Abuja, Nigeria
       </div>
       <div className="col-12 border-bottom">
