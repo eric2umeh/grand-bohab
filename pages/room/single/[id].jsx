@@ -1,15 +1,16 @@
-import dynamic from "next/dynamic";
-import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
-import "photoswipe/dist/photoswipe.css";
-import rentalsData from "../../../data/rentals";
-import Seo from "../../../components/common/Seo";
-import Header from "../../../components/header";
-import Overview from "../../../components/room-single/Overview";
-import StandardHighlights from "../../../components/room-single/StandardHighlights";
-import Copyright from "../../../components/footer/default/Copyright";
-import SlideGallery from "../../../components/room-single/SlideGallery";
-import HelpfulFacts from "../../../components/room-single/HelpfulFacts";
+import dynamic from 'next/dynamic';
+import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
+import 'photoswipe/dist/photoswipe.css';
+import rentalsData from '../../../data/rentals';
+import Seo from '../../../components/common/Seo';
+import Header from '../../../components/header';
+import Overview from '../../../components/room-single/Overview';
+import StandardHighlights from '../../../components/room-single/StandardHighlights';
+import Copyright from '../../../components/footer/default/Copyright';
+import SlideGallery from '../../../components/room-single/SlideGallery';
+import HelpfulFacts from '../../../components/room-single/HelpfulFacts';
+import Link from 'next/link';
 
 const TourSingleV1Dynamic = () => {
   const router = useRouter();
@@ -45,14 +46,15 @@ const TourSingleV1Dynamic = () => {
                     <div className="col-auto">
                       <div className="row x-gap-10 items-center">
                         <div className="col-auto">
-                          <div className="d-flex x-gap-5 items-center">
-                            <i className="icon-bed text-16 text-light-1" />
+                          <div className="d-flex items-center">
+                            <button className="button px-15 py-10 -blue-1 bg-light-2 mt-10">
+                              ₦{rental?.price} / night
+                            </button>
                             <div className="text-15 text-light-1">
                               {rental?.type}
                             </div>
                           </div>
                         </div>
-                        
                       </div>
                     </div>
                   </div>
@@ -61,15 +63,16 @@ const TourSingleV1Dynamic = () => {
 
                 <div className="col-auto">
                   <div className="row x-gap-10 y-gap-10">
-                    
                     {/* End .col-auto */}
 
-                    <div className="col-auto">
-                      <button className="button px-15 py-10 -blue-1 bg-light-2 mt-10">
-                        ₦
-                        {rental?.price} / night
-                      </button>
-                    </div>
+                    <div className="d-flex items-center is-menu-opened-hide">
+                  <Link
+                    href={`https://www.grandbohabs.shop/room/${rental.id}`}
+                    className="button px-30 fw-400 text-14 -blue-1 bg-yellow-5 h-40 text-white"
+                  >
+                    Book Now
+                  </Link>
+                </div>
                     {/* End .col-auto */}
                   </div>
                   {/* End .row */}
@@ -106,14 +109,12 @@ const TourSingleV1Dynamic = () => {
               {/* End  Overview */}
             </div>
             {/* End .col-xl-8 */}
-            
           </div>
           {/* End .row */}
         </div>
         {/* End container */}
       </section>
       {/* End single page content */}
-
 
       <section className="pt-40 layout-pb-lg">
         <div className="container">

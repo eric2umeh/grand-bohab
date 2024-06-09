@@ -9,6 +9,9 @@ import Travellers from "@/components/home/Travellers";
 import PopularRoutes from "@/components/home/PopularRoutes";
 import Testimonial from "../../components/home/Testimonial";
 import TestimonialRating from "../../components/home/TestimonialRating";
+import ContactForm from "@/components/common/ContactForm";
+import WhyChoose from "@/components/block/BlockGuide";
+import RentalProperties from "@/components/room-list/all/RentalProperties";
 
 const Home = () => {
   return (
@@ -24,38 +27,23 @@ const Home = () => {
         <br /> <br /> <br /> <br /> <br />
       </div>
 
-      <section className="layout-pt-lg layout-pb-lg z-999">
+      <section className="layout-pt-lg layout-pb-lg">
         <div className="container">
-          <div className="row justify-between items-end">
-            <div className="col-auto">
-              <div className="sectionTitle -md sm:mt-80">
-                <h2 className="sectionTitle__title container">Popular Rooms</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  These are various distinguished rooms
-                </p>
+          <div className="row y-gap-30">
+            
+            <div className="col-xl-12 ">
+              <div className="row y-gap-30">
+                <RentalProperties />
               </div>
+              {/* End .row */}
             </div>
-            {/* End .col */}
-
-            <div className="col-auto">
-              <Link
-                href="/room/all"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-              >
-                Showcase <div className="icon-arrow-top-right ml-15" />
-              </Link>
-            </div>
+            {/* End .col for right content */}
           </div>
           {/* End .row */}
-
-          <div className="relative mt-40 sm:mt-20">
-            <PopularRoutes />
-          </div>
-          {/* End relative */}
         </div>
         {/* End .container */}
       </section>
-      {/* End popular routes Section */}
+      {/* End layout for listing sidebar and content */}
 
       <AboutIntro />
       {/* About Intro Cruise  Sections */}
@@ -124,6 +112,48 @@ const Home = () => {
       </section>
       {/* End testimonial and brand sections Section */}
 
+      {/* Contact */}
+      <div className="map-outer">
+        <div className="map-canvas">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d775.7646305336714!2d7.451756!3d9.088921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOSw4OCwgN8KwNDUxNiwgNzQuNDUxLDk3MsKwMzg1MCwg0JLRgNGD0YfQvdC-0L_RgNC-0LLQtdGA0L3QtSAw!5e0!3m2!1sen!2sbd!4v1670824458615!5m2!1sen!2sbd&q=9.088921,7.451756" 
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+      {/* End map section */}
+
+      <section className="relative container">
+        <div className="row justify-end">
+          <div className="col-xl-5 col-lg-7">
+            <div className="map-form px-40 pt-40 pb-50 lg:px-30 lg:py-30 md:px-24 md:py-24 bg-white rounded-4 shadow-4">
+              <div className="text-22 fw-500">Contact Us</div>
+              <ContactForm />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* End contact section form */}
+
+      <section className="layout-pt-lg layout-pb-lg bg-blue-2">
+        <div className="container">
+          <div className="row justify-center text-center">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Why Choose Us</h2>
+              </div>
+            </div>
+          </div>
+          {/* End .row */}
+
+          <div className="row y-gap-40 justify-between pt-50">
+            <WhyChoose />
+          </div>
+          {/* End .row */}
+        </div>
+        {/* End .container */}
+      </section>
+      {/* End Why Choose Us section */}
       <div className="py-20 border-top-light">
         <Copyright />
       </div>
