@@ -120,7 +120,7 @@ const RentalProperties = () => {
               href={`https://www.grandbohabs.shop/room/${item.id}`}
               className="button px-30 fw-400 text-14 -blue-1 bg-yellow-5 h-40 text-white"
             >
-              Book Nvow
+              Book Now
             </Link>
           </div>
         </div>
