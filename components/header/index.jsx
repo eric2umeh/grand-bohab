@@ -39,7 +39,7 @@ const Header1 = () => {
             {/* End col */}
 
             <div className="col-auto">
-              <div className="d-flex items-center">
+              {/* <div className="d-flex items-center">
                 <div className="d-flex items-center is-menu-opened-hide">
                   <Link
                     href="https://www.grandbohabs.shop/"
@@ -47,10 +47,10 @@ const Header1 = () => {
                   >
                     Make Reservations
                   </Link>
-                </div>
+                </div> */}
                 {/* End d-flex */}
 
-              </div>
+              {/* </div> */}
               {/* End d-flex */}
             </div>
             {/* End col-auto */}

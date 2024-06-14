@@ -10,7 +10,7 @@ const AboutIntro = () => {
           {/* End .col */}
 
           <div className="col-auto">
-            <img src="/img/hotels/66.jpg" alt="image" />
+            <img src="/img/hotels/66.jpeg" alt="image" />
           </div>
         </div>
         {/* End .row */}
@@ -27,14 +27,14 @@ const AboutIntro = () => {
               Experience unparalleled luxury and sophistication at our new rooms in the heart of the city's most sought-after neighborhood. 
               Nestled in a prime location, our meticulously designed rooms offer a harmonious blend of modern amenities and timeless elegance, ensuring an unforgettable stay for discerning travelers seeking the epitome of comfort and convenience.
             </p>
-            <div className="d-inline-block mt-40 lg:mt-30 sm:mt-20">
+            {/* <div className="d-inline-block mt-40 lg:mt-30 sm:mt-20">
               <a
                 href="https://www.grandbohabs.shop"
                 className="button -md -blue-1 bg-yellow-5 text-dark-1"
               >
                 Book Now <div className="icon-arrow-top-right ml-15" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* End .row */}

@@ -115,14 +115,14 @@ const RentalProperties = () => {
               </div>
             </div>
           </Link>
-          <div className="d-flex items-center is-menu-opened-hide">
+          {/* <div className="d-flex items-center is-menu-opened-hide">
             <Link
               href={`https://www.grandbohabs.shop/room/${item.id}`}
               className="button px-30 fw-400 text-14 -blue-1 bg-yellow-5 h-40 text-white"
             >
               Book Now
             </Link>
-          </div>
+          </div> */}
         </div>
       ))}
     </>
