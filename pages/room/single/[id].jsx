@@ -66,12 +66,12 @@ const TourSingleV1Dynamic = () => {
                     {/* End .col-auto */}
 
                     <div className="d-flex items-center is-menu-opened-hide">
-                  {/* <Link
+                  <Link
                     href={`https://www.grandbohabs.shop/room/${rental.id}`}
                     className="button px-30 fw-400 text-14 -blue-1 bg-yellow-5 h-40 text-white"
                   >
                     Book Now
-                  </Link> */}
+                  </Link>
                 </div>
                     {/* End .col-auto */}
                   </div>

@@ -1,7 +1,7 @@
 export const destinations3 = [
   {
     id: 1,
-    img: "/img/hotels/76.jpg",
+    img: "/img/hotels/76.jpeg",
     title: "Bar",
     travellers: "",
     delayAnimation: "0",
@@ -36,28 +36,28 @@ export const destinations3 = [
   },
   {
     id: 6,
-    img: "/img/hotels/52.jpg",
+    img: "/img/hotels/52.jpeg",
     title: "Entrance",
     travellers: "",
     delayAnimation: "500",
   },
   {
     id: 7,
-    img: "/img/hotels/50.jpg",
+    img: "/img/hotels/50.jpeg",
     title: "Front Desk",
     travellers: "",
     delayAnimation: "300",
   },
   {
     id: 8,
-    img: "/img/hotels/59.jpg",
+    img: "/img/hotels/59.jpeg",
     title: "Restaurant",
     travellers: "",
     delayAnimation: "100",
   },
   {
     id: 9,
-    img: "/img/hotels/47.jpg",
+    img: "/img/hotels/47.jpeg",
     title: "Overview",
     travellers: "",
     delayAnimation: "500",
