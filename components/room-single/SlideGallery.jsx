@@ -34,8 +34,8 @@ const SlideGallery = ({ rental }) => {
             <Item
               original={rental.slideImg && rental.slideImg[1]}
               thumbnail={rental.slideImg && rental.slideImg[1]}
-              width={450}
-              height={375}
+              width={1006}
+              height={765}
             >
               {({ ref, open }) => (
                 <Image
@@ -57,8 +57,8 @@ const SlideGallery = ({ rental }) => {
             <Item
               original={rental.slideImg && rental.slideImg[2]}
               thumbnail={rental.slideImg && rental.slideImg[2]}
-              width={450}
-              height={375}
+              width={1006}
+              height={765}
             >
               {({ ref, open }) => (
                 <Image
@@ -80,8 +80,8 @@ const SlideGallery = ({ rental }) => {
             <Item
               original={rental.slideImg && rental.slideImg[3]}
               thumbnail={rental.slideImg && rental.slideImg[3]}
-              width={450}
-              height={375}
+              width={1006}
+              height={765}
             >
               {({ ref, open }) => (
                 <Image
@@ -99,10 +99,56 @@ const SlideGallery = ({ rental }) => {
           </div>
           {/* End .galleryGrid__item */}
 
+          <div className="galleryGrid__item">
+            <Item
+              original={rental.slideImg && rental.slideImg[4]}
+              thumbnail={rental.slideImg && rental.slideImg[4]}
+              width={1006}
+              height={765}
+            >
+              {({ ref, open }) => (
+                <Image
+                  width={450}
+                  height={375}
+                  ref={ref}
+                  onClick={open}
+                  src={rental.slideImg && rental.slideImg[4]}
+                  alt="image"
+                  className="rounded-4"
+                  role="button"
+                />
+              )}
+            </Item>
+          </div>
+          {/* End .galleryGrid__item */}
+
+          <div className="galleryGrid__item">
+            <Item
+              original={rental.slideImg && rental.slideImg[5]}
+              thumbnail={rental.slideImg && rental.slideImg[5]}
+              width={1006}
+              height={765}
+            >
+              {({ ref, open }) => (
+                <Image
+                  width={450}
+                  height={375}
+                  ref={ref}
+                  onClick={open}
+                  src={rental.slideImg && rental.slideImg[5]}
+                  alt="image"
+                  className="rounded-4"
+                  role="button"
+                />
+              )}
+            </Item>
+          </div>
+          {/* End .galleryGrid__item */}
+
           <div className="galleryGrid__item relative">
             <Image
-              width={450}
-              height={375}
+              width={1006}
+              height={765}
               src="/img/general/logo-bh.jpeg"
               alt="image"
               className="rounded-4"
@@ -116,7 +162,7 @@ const SlideGallery = ({ rental }) => {
               >
                 {({ ref, open }) => (
                   <div
-                    className="button -blue-1 px-24 py-15 bg-white text-dark-1 js-gallery"
+                    className="button -blue-1 px-24 py-15 bg-blue-1 text-white js-gallery"
                     ref={ref}
                     onClick={open}
                     role="button"

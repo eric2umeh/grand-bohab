@@ -84,6 +84,10 @@ const RentalProperties = () => {
                       isTextMatched(item?.tag, 'popular')
                         ? 'bg-yellow-1 text-dark-1'
                         : ''
+                    }  ${
+                      isTextMatched(item?.tag, 'grand')
+                        ? 'bg-red-1 text-white'
+                        : ''
                     }`}
                   >
                     {item?.tag}
