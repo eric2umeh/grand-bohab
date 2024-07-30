@@ -1,8 +1,8 @@
 export const destinations3 = [
   {
     id: 1,
-    img: "/img/hotels/76.jpeg",
-    title: "Bar",
+    img: "/img/hotels/IMG_5320.jpg",
+    title: "Adult Swimming Pool",
     travellers: "",
     delayAnimation: "0",
   },
@@ -15,8 +15,8 @@ export const destinations3 = [
   },
   {
     id: 3,
-    img: "/img/hotels/80.jpg",
-    title: "Board Room",
+    img: "/img/hotels/IMG_5318.jpg",
+    title: "Kids Swimming Zone",
     travellers: "",
     delayAnimation: "200",
   },
@@ -36,8 +36,8 @@ export const destinations3 = [
   },
   {
     id: 6,
-    img: "/img/hotels/52.jpeg",
-    title: "Entrance",
+    img: "/img/hotels/80.jpg",
+    title: "Board Room",
     travellers: "",
     delayAnimation: "500",
   },
@@ -54,9 +54,16 @@ export const destinations3 = [
     title: "Restaurant",
     travellers: "",
     delayAnimation: "100",
-  },
+  },  
   {
     id: 9,
+    img: "/img/hotels/76.jpeg",
+    title: "Bar",
+    travellers: "",
+    delayAnimation: "100",
+  },
+  {
+    id: 10,
     img: "/img/hotels/47.jpeg",
     title: "Overview",
     travellers: "",
