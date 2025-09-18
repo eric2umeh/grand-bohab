@@ -12,7 +12,7 @@ const PopularRoutes = () => {
       destination: 'Delux',
       tripType: '8 available rooms',
       data: 'Wed, Jun 1 - Sun, Jun 5',
-      price: '65,000',
+      price: '75,000',
       delayAnimation: '600',
     },
     {
@@ -22,7 +22,7 @@ const PopularRoutes = () => {
       destination: 'Royal',
       tripType: '8 available rooms',
       data: 'Wed, Jun 1 - Sun, Jun 5',
-      price: '75,000',
+      price: '85,000',
       delayAnimation: '500',
     },
     {
@@ -32,7 +32,7 @@ const PopularRoutes = () => {
       destination: 'Kings Size',
       tripType: '5 available room',
       data: 'Wed, Jun 1 - Sun, Jun 5',
-      price: '80,000',
+      price: '100,000',
       delayAnimation: '400',
     },
     {
@@ -42,7 +42,7 @@ const PopularRoutes = () => {
       destination: 'Mini Suite',
       tripType: '1 available rooms',
       data: 'Wed, Jun 1 - Sun, Jun 5',
-      price: '110,000',
+      price: '130,000',
       delayAnimation: '300',
     },
     {
@@ -52,7 +52,7 @@ const PopularRoutes = () => {
       destination: 'Executive Suite',
       tripType: '2 available rooms',
       data: 'Wed, Jun 1 - Sun, Jun 5',
-      price: '130,000',
+      price: '150,000',
       delayAnimation: '200',
     },
     {
