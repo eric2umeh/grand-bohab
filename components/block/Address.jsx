@@ -14,7 +14,7 @@ const Address = () => {
       title: "Toll Free Customer Care",
       content: (
         <>
-          <a href="tel:+234 905 7252 594">+234 905 7252 594</a>
+          <a href="tel:+234 901 626 4834">+234 901 626 4834</a>
         </>
       ),
     },
