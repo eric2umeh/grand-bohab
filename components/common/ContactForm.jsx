@@ -10,7 +10,7 @@ const ContactForm = () => {
   return (
     <div className="row y-gap-20 pt-20 text-light-1">
       <div className="col-12 border-bottom">
-        Call: +234 905 7252 594
+        Call: +234 901 626 4834
       </div>
       <div className="col-12 border-bottom">
         Whatsapp: +234 813 3405 6026
