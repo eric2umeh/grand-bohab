@@ -32,7 +32,7 @@ const PopularRoutes = () => {
       destination: 'Kings Size',
       tripType: '5 available room',
       data: 'Wed, Jun 1 - Sun, Jun 5',
-      price: '100,000',
+      price: '110,000',
       delayAnimation: '400',
     },
     {
@@ -52,7 +52,7 @@ const PopularRoutes = () => {
       destination: 'Executive Suite',
       tripType: '2 available rooms',
       data: 'Wed, Jun 1 - Sun, Jun 5',
-      price: '150,000',
+      price: '160,000',
       delayAnimation: '200',
     },
     {
