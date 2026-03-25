@@ -42,7 +42,7 @@ const PopularRoutes = () => {
       destination: 'Mini Suite',
       tripType: '1 available rooms',
       data: 'Wed, Jun 1 - Sun, Jun 5',
-      price: '130,000',
+      price: '180,000',
       delayAnimation: '300',
     },
     {
