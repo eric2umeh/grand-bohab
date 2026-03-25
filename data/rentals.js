@@ -58,7 +58,7 @@ module.exports = [
     type: "",
     ratings: "4.8",
     numberOfReviews: "3014",
-    price: "110,000",
+    price: "140,000",
     guest: "2",
     parlour: "0",
     bedroom: "1",
