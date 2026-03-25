@@ -12,7 +12,7 @@ const PopularRoutes = () => {
       destination: 'Delux',
       tripType: '8 available rooms',
       data: 'Wed, Jun 1 - Sun, Jun 5',
-      price: '75,000',
+      price: '100,000',
       delayAnimation: '600',
     },
     {
