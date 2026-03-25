@@ -125,7 +125,7 @@ module.exports = [
     type: "",
     ratings: "4.8",
     numberOfReviews: "3014",
-    price: "180,000",
+    price: "230,000",
     guest: "4",
     parlour: "1",
     bedroom: "1",
