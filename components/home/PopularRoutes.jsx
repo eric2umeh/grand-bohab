@@ -62,7 +62,7 @@ const PopularRoutes = () => {
       destination: 'Diplomatic Suite',
       tripType: '1 available rooms',
       data: 'Wed, Jun 1 - Sun, Jun 5',
-      price: '230,000.',
+      price: '230,000',
       delayAnimation: '100',
     },
   ];
