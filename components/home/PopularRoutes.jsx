@@ -32,7 +32,7 @@ const PopularRoutes = () => {
       destination: 'Kings Size',
       tripType: '5 available room',
       data: 'Wed, Jun 1 - Sun, Jun 5',
-      price: '110,000',
+      price: '140,000',
       delayAnimation: '400',
     },
     {
